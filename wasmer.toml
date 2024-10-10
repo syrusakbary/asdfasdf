@@ -9,5 +9,6 @@ name = "script"
 module = "wasmer/winterjs:winterjs"
 runner = "wasi"
 
+
 [command.annotations.wasi]
 main-args = ["--mode", "cloudflare", "/web"]
